@@ -1,0 +1,9 @@
+Event           CompSymbol      Number      PricePerShare   TotalValue      Time               
+Buy             JAVA            10          $8.61           $86.10          10:1:48         
+Buy             QI              10          $0.15           $1.50           10:2:58         
+Buy             TGT             5           $47.46          $237.30         10:3:17         
+Buy             JAVA            10          $9.61           $96.10          10:3:37         
+Buy             INTC            10          $19.24          $192.40         10:3:57         
+Sell            JAVA            8           $9.61           $76.88          10:6:8          
+Buy             YHOO            20          $15.38          $307.60         22:52:34        
+Sell            YHOO            10          $16.38          $163.80         22:52:56        

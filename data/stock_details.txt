@@ -1,0 +1,6 @@
+CompanySymbol	Number	
+TGT		5
+INTC		10
+JAVA		12
+QI		10
+YHOO		10
