@@ -1,0 +1,62 @@
+Sahithya Namani
+sn807
+Final project
+
+Steps to run the file
+1. Downoad and unzip the folder.
+2. Go to command prompt to open the file where it has been saved
+3. Type command g++ Account_SahithyaNamani.cpp BankAccount_SahithyaNamani.cpp BubbleSort_SahithyaNamani.cpp DoublyLinkedList_SahithyaNamani.cpp Helper_SahithyaNamani.cpp main_SahithyaNamani.cpp Node_SahithyaNamani.cpp SelectionSort_SahithyaNamani.cpp SortStratergy_SahithyaNamani.cpp StockAccount_SahithyaNamani.cpp StockAccountMatlab_SahithyaNamani.cpp InsertionSort_SahithyaNamani.cpp -std=c++11 -o exec -I/Applications/MATLAB_R2023b.app/extern/include/ -L/Applications/MATLAB_R2023b.app/bin/maca64 -leng -lmx -lm -Wl,-rpath,/Applications/MATLAB_R2023b.app/bin/maca64 && ./exec
+
+----->ACCOUNT
+
+The program defines an abstract base class Account with two derived classes: StockAccount and BankAccount.
+Inheritance Structure: abstract base class Account has two derived classes: StockAccount and BankAccount.
+Cash Balance Connection: Connect StockAccount and BankAccount information through a shared cash balance.
+
+
+----->Stock Portfolio Account
+
+- Data Handling: Manage stock portfolios using information from 'Results.txt' files.
+- Persistence: Store account information in text files to retain data between program sessions.
+- Doubly Linked List: Use a custom implementation of a doubly linked list to store and manage stock information.
+- Sorting Requirement: Maintain the doubly linked list sorted by the total value of stocks owned.
+- Transaction Handling: Implement functionalities to buy and sell shares, updating portfolio and cash balance accordingly.
+- Record Keeping: Store transaction details in text files for later reference.
+  
+ ----->Bank Account
+
+- Initial Balance: Bank account starts with an initial balance of $10,000.
+- Transaction Recording: Record deposit and withdrawal activities in the bank account transaction history.
+- Options Available: View account balance, deposit money, withdraw money, and print transaction history.
+
+ ----->Functionality Highlights
+
+1. Stock Operations:
+   - Display stock price, current portfolio, buy and sell shares, view portfolio value graph, and transaction history.
+2. Bank Operations:
+   - View account balance, deposit, withdraw, and view transaction history.
+
+ ----->Design Patterns used
+
+ 1. Template Method design pattern is a behavioral pattern that facilitates the creation
+ of an algorithm's outline in a base class while enabling subclasses to redefine specific steps without
+  altering the overall structure of the algorithm. This pattern promotes reusability and consistency across 
+  similar algorithms.
+
+2. Stratergy Pattern
+The Strategy Pattern is indeed a behavioral design pattern that allows defining a family of algorithms, 
+encapsulating each one, and making them interchangeable. 
+It enables the client to choose the algorithm at runtime without altering the object that uses it.
+
+----->Warnings
+I'm encountering a warning after executing the plot graph, but it's safe to disregard. The warning message
+ mentions the CodeCache being full and the compiler being disabled. This seems to be specific to the Matlab 
+ application on Mac with the Apple chip. Unfortunately, it appears there's no available fix for this issue.
+ 
+ "Option: CodeCache is full. Compiler has been disabled.
+Try increasing the code cache size using -XX:ReservedCodeCacheSize="
+
+----->Sorting Algorithms used
+1. Selection sort
+2. Bubble sort
+3. Insertion sort
